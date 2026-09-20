@@ -262,45 +262,6 @@
   --syntax-deletion: #a42a41;
 }
 
-:root:where([data-design-theme='typewriter'][data-theme='reading']) {
-  --container-color-alt: #f2e7cc;
-  --pane-bg: #f2e7cc;
-  --container-color: #e9dab8;
-  --surface-color: #e9dab8;
-  --surface-color-alt: #f2e7cc;
-  --body-color: #ddcaa0;
-  --container-color-light: #ddcaa0;
-  --container-color-alt-transparent: color-mix(in srgb, #f2e7cc 88%, transparent);
-  --title-color: #3d3224;
-  --text-color: #60513a;
-  --text-secondary: #6c593d;
-  --text-tertiary: #7e6a49;
-  --textColorRGBA: color-mix(in srgb, #60513a 40%, transparent);
-  --border-light: color-mix(in srgb, #3d3224 9%, transparent);
-  --border-medium: color-mix(in srgb, #3d3224 17%, transparent);
-  --hover-bg: color-mix(in srgb, #3d3224 7%, transparent);
-  --accent-color: #855432;
-  --accent-contrast: #ffffff;
-  --selection-color: 133, 84, 50;
-  --accent-tint-bg: color-mix(in srgb, #855432 11%, transparent);
-  --accent-tint-text: #784c2d;
-  --accent-soft-bg: color-mix(in srgb, #855432 6%, transparent);
-  --dropzone-bg: color-mix(in srgb, #855432 14%, transparent);
-  --info-color: #855432;
-  --info-color-bg: color-mix(in srgb, #855432 12%, transparent);
-  --syntax-comment: var(--text-secondary);
-  --syntax-keyword: var(--accent-color);
-  --syntax-string: #46603a;
-  --syntax-number: #7e5129;
-  --syntax-type: #3e6175;
-  --syntax-variable: #685728;
-  --syntax-tag: #38645a;
-  --syntax-function: #6a4e83;
-  --syntax-addition: #46603a;
-  --syntax-deletion: #934338;
-  --markdown-line-height: 1.85;
-}
-
 :where([data-design-theme='typewriter']) .sidebar {
   background-image: repeating-linear-gradient(0deg, transparent 0 3px, color-mix(in srgb, var(--sidebar-text) 2%, transparent) 3px 4px);
 }
