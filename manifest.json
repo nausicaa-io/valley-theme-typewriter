@@ -1,0 +1,12 @@
+{
+  "id": "typewriter",
+  "name": "Typewriter",
+  "version": "2.0.0",
+  "description": "Paper and ink: Courier typography, square controls, ruled sidebars, editorial tabs, and warm Light and Dark surfaces.",
+  "author": [
+    "nausicaa"
+  ],
+  "authorUrl": [
+    "https://github.com/nausicaa-io"
+  ]
+}
